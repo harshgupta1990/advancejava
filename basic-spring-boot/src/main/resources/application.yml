@@ -1,0 +1,18 @@
+server:
+    port: 8080
+    
+spring:
+
+  mvc:
+      view:
+        prefix: /src/main/webapp/WEB-INF/view/
+        suffix: .jsp
+  datasource:    url: jdbc:postgresql://localhost:5432/restdb
+    username: postgres
+    driver-class-name: org.postgresql.Driver
+    spring.datasource: postgres
+    password: postgres
+        
+      
+
+
